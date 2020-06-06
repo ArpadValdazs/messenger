@@ -2,6 +2,7 @@
 session_start();
 $email=$_POST['email'];
 $password=$_POST['password'];
+
 if((!isset($email))&&(!isset($password)))
 {
 	session_destroy();
